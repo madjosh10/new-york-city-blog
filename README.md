@@ -7,10 +7,10 @@ Don’t forget to save your code after each step. By pressing save to run your c
 
 **Note:** While you are developing the webpage, you will notice that the elements are automatically assigned colors, borders, and positioned properly. This is because of the CSS file. Don’t worry about CSS right now, it’s only there so that the webpage looks nice.
 
-- [] A common usage of a navigation bar is to create shortcuts for a webpage. This will allow the user to go directly to the information they want to access through the navigation links.
+- [] 1 A common usage of a navigation bar is to create shortcuts for a webpage. This will allow the user to go directly to the information they want to access through the navigation links.
      Create a `<nav>` element underneath the opening `<body>` tag.
      
-- [] Within the `<nav>` element, creat `<ul>` element to create and unordered list.
+- [] 2 Within the `<nav>` element, creat `<ul>` element to create and unordered list.
      The unordered list should contain the following three items: 
      * Blog
      * Media
@@ -20,8 +20,12 @@ Don’t forget to save your code after each step. By pressing save to run your c
      
      **Note:** Save your work to see your progress.
      
-- [] You need to title your blog, so people know what you’re writing about. Create a `<header>` element under the closing `</nav>` tag.
+- [] 3 You need to title your blog, so people know what you’re writing about. Create a `<header>` element under the closing `</nav>` tag.
 
      Within the `<header>` element, create an `<h1>` element which should contain the following: New YOrk City
+
+- [] 4 Create a `<main>` element below the closing `</header>` tag.
+       Within the `<main>` element, create a `<section>` element with an id of “blog”.
+       This `<section>` element will hold the main content of your webpage. You are giving this element an id so that you can target it with the nav bar.
      
      
